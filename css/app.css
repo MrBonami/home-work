@@ -1,0 +1,199 @@
+/* font-family: "Space Grotesk", sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit;
+    font-size: 100%;
+    font-weight: 400;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+
+body, a, textarea, button, input{
+    font-family: "Inter", sans-serif;
+}
+
+.main_block{
+    width: 100%;
+    height: 100vh;
+    background: #124;
+}
+
+.main_block .container{
+    width: 1290px;
+    margin: 0 auto;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main_block .container header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.main_block .container header menu{
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_block .container header menu li a{
+    font-weight: 500;
+    color: #ddd;
+    transition: 0.3s;
+}
+
+.main_block .container header menu li a:hover{
+    color: #ea5f5c;
+}
+
+.main_block .container header aside{
+    
+}
+
+.main_block .container header aside a{
+    font-weight: 500;
+    color: #ddd;
+}
+
+.btn{
+    font-weight: 500;
+    color: #fff;
+    border-radius: 4px;
+    background: #f23935;
+    padding: 13px 20px;
+    transition: 0.3s;
+}
+
+.main_block .container header aside .btn{
+    margin-left: 76px;
+}
+
+.btn:hover{
+    background: #fff;
+    color: #f23935;
+    cursor: pointer;
+    transform: scale(1.06);
+}
+
+.main_block .container .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 0;
+    transform: translateY(-50px);
+}
+
+.main_block .container .content article{
+    width: 620px;
+}
+
+.main_block .container .content article h1{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 100px;
+    color: #efefef;
+}
+
+.main_block .container .content article h1 span{
+    font-weight: 500;
+    color: #ffc947;
+}
+
+.main_block .container .content article p{
+    width: 479px;
+    font-weight: 500;
+    color: #acacac;
+    margin-bottom: 36px;
+}
+
+.main_block .container .content article button{
+    margin-bottom: 36px;
+}
+
+.main_block .container .content article > span{
+    font-weight: 500;
+    color: #d6d6d6;
+    margin-right: 35px;
+}
+
+.main_block .container .content article img{
+    margin-right: 25px;
+}
+
+/* ABOUT  */
+.about{
+    width: 100%;
+    padding-top: 73px;
+    padding-bottom: 73px;
+}
+.about .container{
+    width: 1174px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .container article{
+    width: 533px;
+}
+
+.about .container article h1{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.about .container article p{
+    font-weight: 500;
+    color: #756a6a;
+    margin-bottom: 60px;
+}
+
+.about .container article aside{
+    width: 297px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about .container article aside nav{
+    text-align: center;
+}
+.about .container article aside nav h2{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color:  #ea5f5c;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
