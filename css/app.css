@@ -179,16 +179,103 @@ body, a, textarea, button, input{
     margin: 10px;
 }
 
+/* Cards Block */
 
+.cards{
+    width: 100%;
+    padding-top: 91px;
+    padding-bottom: 91px;
+   
+}
+.cards .container{
+    width: 1135px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 43px;
+}
 
+.cards .container article{
+    width: 633px;
+    display: flex;
+    flex-direction: column;
+}
 
+.cards .container article h1{
+font-family: "Space Grotesk", sans-serif;
+font-weight: 700;
+font-size: 36px;
+text-align: center;
+color: #1e1e1e;
+margin-bottom: 20px;
+}
+.cards .container article p{
+font-family: "Space Grotesk", sans-serif;
+font-weight: 500;
+font-size: 16px;
+text-align: center;
+color: #7c7c7c;
+margin-bottom: 30px;
+}
 
+.cards .container aside{
+    display: flex;
+    gap: 23px;
+    margin-top: 43px;
+    transform: translateX(-10px);
+}
 
+.cards .container aside div, nav img{
+width: 61px;
+height: 61px;
+padding-left: 18px;
+padding-top: 17px;
+}
 
+.cards .container aside nav{
+    display: flex;
+    flex-direction: column;
+    width: 363px;
+    background:#fff;
+    border-radius: 4px;
+    box-shadow: 9px 12px 37px 0 rgba(0, 0, 0, 0.12);
+    
+}
 
+.cards .container aside ,div nav h1{
+font-family: "Space Grotesk", sans-serif;
+font-weight: 700;
+font-size: 20px;
+color: #1e1e1e;
+margin-top: 11px;
+padding-left: 18px;
+}
 
+.cards .container aside ,div nav p{
+font-family: "Space Grotesk", sans-serif;
+font-weight: 500;
+font-size: 16px;
+color: #7c7c7c;
+margin-top: 11px;
+padding-left: 18px;
+padding-bottom: 17px;
+}
 
-
+.cards .container div{
+    display: flex;
+    gap: 23px;
+    margin-top:27px;
+}
+.cards .container div nav{
+    display: flex;
+    flex-direction: column;
+    width: 363px;
+    background:#fff;
+    border-radius: 4px;
+    box-shadow: 9px 12px 37px 0 rgba(0, 0, 0, 0.12);
+    
+}
 
 
 
