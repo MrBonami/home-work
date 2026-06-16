@@ -277,10 +277,73 @@ padding-bottom: 17px;
     
 }
 
+/* four block */
 
+.four{
+    width: 1012px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.four article {
+    width: 533px;
+}
 
+.four article h1 {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 
+.four article p {
+    font-weight: 500;
+    color: #756a6a;
+    margin-bottom: 60px;
+}
 
+/* Img block */
 
+.five{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 133px;
+}
 
+.five article {
+    display: flex;
+    width: 1220px;
+    height: 580px;
+    background-image:url(../img/lodi.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10px;
+}
+.five article aside{
+    width: 597px;
+    background:#fff;
+    padding: 35px 135px 35px 19px;
+}
+
+.five article aside h1{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 34px;
+    color: #1e1e1e;
+    padding-bottom: 20px;
+}
+
+.five article aside p{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #7c7c7c;
+}
