@@ -347,3 +347,91 @@ padding-bottom: 17px;
     font-size: 13px;
     color: #7c7c7c;
 }
+
+/* six block */
+
+.six{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 69px;
+}
+
+.six .container{
+    width: 1102px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.six .container article{
+    width: 540px;
+    padding-bottom: 50px;
+}
+
+.six .container > article h1{
+    font-family: "Space Grotesk", sans-serif; 
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    color: #1e1e1e;
+    padding-bottom: 10px;
+}
+.six .container > article p{
+    font-family: "Space Grotesk", sans-serif; 
+    font-weight: 500;
+    text-align: center;
+    color: #7c7c7c;
+}
+
+.six .container div{
+   display: flex;
+   gap: 71px;
+}
+
+.six .container div article{
+   width: 320px;
+}
+
+.six .container div article div{
+    position: relative;
+}
+
+.six .container div article div aside{
+    position: absolute;
+    border-radius: 4px;
+    background: #fff;
+    padding: 4px 10px;
+    right: 14px;
+    top: 17px;
+    font-weight: 600;
+}
+
+.six .container div article h1 {
+    font-family: "Space Grotesk", sans-serif; 
+    font-weight: 700;
+    font-size: 18px;
+    color: #1e1e1e;
+    padding-top: 21px;
+}
+
+.six .container div article p {
+    font-family: "Space Grotesk", sans-serif; 
+    font-weight: 500;
+    font-size: 16px;
+    color: #7c7c7c;
+    padding-top: 12px;
+}
+
+.six .container button{
+    font-family: "Space Grotesk", sans-serif; 
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #292929;
+    background:none;
+    cursor: pointer;
+}
