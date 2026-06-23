@@ -205,6 +205,9 @@ body, a, textarea, button, input{
     width: 633px;
     display: flex;
     flex-direction: column;
+
+    animation-name: fade;
+    animation-duration: 2s;
 }
 
 .cards .container article h1{
