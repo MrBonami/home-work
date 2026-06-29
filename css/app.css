@@ -136,6 +136,11 @@ body, a, textarea, button, input{
 }
 
 /* ABOUT  */
+
+.spon{
+    display: none;
+}
+
 .about{
     width: 100%;
     padding-top: 73px;
