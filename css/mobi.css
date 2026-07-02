@@ -1,13 +1,4 @@
 @media (max-width: 500px){
-    .about,
-    .cards,
-    .four,
-    .five,
-    .six,
-    .ready,
-    footer{
-        display: none;
-    }
 
     .main_block .container{
         width: 95%;
@@ -42,24 +33,29 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        text-align: center; 
     }
 
     .main_block .container .content article {
         width: 100%;
     }
 
-    .main_block .container .content article h1 {
-        font-size: 80px;
-
-    }
-
-    .main_block .container .content article p{
-        width: 360px;
-    }
 
     .main_block .container .content img{
         display: none;
     }
+
+    .main_block .container .content article h1{
+        font-family: "Space Grotesk", sans-serif;
+        font-weight: 500;
+        font-size: 80px;
+        color: #efefef;
+    }
+
+     .main_block .container .content article p{
+        width: 100%;
+    }
+
 
     .spon{
         width: 100%;
@@ -82,5 +78,136 @@
         text-align: center;
         color: #1e1e1e;
     }
+
+    /* About */
+
+ 
+    .about .container{
+        width: 95%;
+        flex-direction: column;
+        gap: 55px;
+    }
+
+    .about .container article{
+        align-items: center;
+        justify-content: center;
+        width:80%;
+    }
+
+    .about .container img{
+        width: 100%;
+        order: 1;
+    }
+
+
+    /* Cads block */
+
+
+    .cards .container{
+        margin-top: -60px;
+        width: 95%;
+    }
+
+    .cards .container article{
+        width: 100%;
+    }
+
+
+    .cards .container aside{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cards .container div{
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /* four block */
+
+    .four{
+        width: 95%;
+        flex-direction: column;
+        gap: 31px;
+    }
+
+    .four article {
+        width: 90%;
+        order: 1;
+    }
+
+    .four img{
+        width: 85%;
+    }
+
+
+    /* img block  */
+
+
+    .five article {
+        width: 100%;
+        margin-top: -60px;
+    }
+
+    .five article aside{
+        width: 100%;
+    }
+        
+    .five article aside h1{
+        width: 100%;
+    }
+
+    .five article aside p{
+        width: 100%;
+    }
+
+
+    /* six block */
+
+    .six .container{
+        width: 95%;
+        margin-top: -60px;
+    }
+    
+    .six .container > article{
+        width: 95%;
+    }
+
+    .six .container div{
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
+
+    /* ready block */
+
+
+    .ready .container{
+        width: 100%;
+    }
+
+    .ready .container article{
+        width: 95%;
+    }
+
+    /* footer block */
+
+    footer .container{
+        width: 80%;
+        margin-top: -100px;
+    }
+
+    footer .container .footer_menu{
+        width: 100%;
+        row-gap: 50px;
+    }
+
+    footer .container .footer_menu menu{
+        width: 50%;
+    }
+
+
 
 }
